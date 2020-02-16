@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "lightninglocator",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Lightning Locator",
+  "description": "Find out where lightning has struck.",
   "authors": [
-    "Me!"
+    "dani9oo"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://dev.dani9oo.com/mc-mods/lightninglocator",
+    "sources": "https://github.com/dani9oo/lightning-locator"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "MPL-2.0",
+  "icon": "assets/lightninglocator/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "com.dani9oo.lightninglocator.Main"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "lightninglocator.mixins.json"
   ],
 
   "depends": {
